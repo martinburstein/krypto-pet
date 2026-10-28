@@ -1,0 +1,15 @@
+{
+  "artworkVersion": "1.0.0",
+  "canonicalDesktopWebpSha256": "49b0a5a1e4f34d26c9cc39bd14b6508cb85a3407f179f0e0364b6c59ab7c732d",
+  "all73PngAndEditableFramesMatchCanon": true,
+  "all73ChatGptFramesMatchCanon": true,
+  "chatGptAdapterOnlyClearsUnusedReferenceCell": true,
+  "nativeZipVerified": true,
+  "chatGptBundledQualityGatePassed": true,
+  "chatGptPreflightPassed": true,
+  "installerCleanInstallAndIdempotencePassed": true,
+  "installerRefusesDifferentExistingPet": true,
+  "localGalleryLinksExist": true,
+  "publicPrivacyScanPassed": true,
+  "qualityWarnings": "Original accepted near-cardinal direction subtleties remain unchanged."
+}

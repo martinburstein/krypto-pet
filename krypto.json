@@ -1,0 +1,33 @@
+{
+  "name": "Krypto",
+  "artworkVersion": "1.0.0",
+  "canon": "Original Four Paws draft",
+  "codex": {
+    "petId": "krypto-four-paws",
+    "spriteVersionNumber": 2,
+    "atlas": [
+      1536,
+      2288
+    ],
+    "spritesheetSha256": "49b0a5a1e4f34d26c9cc39bd14b6508cb85a3407f179f0e0364b6c59ab7c732d"
+  },
+  "chatgpt": {
+    "spriteVersionNumber": 2,
+    "atlas": [
+      1536,
+      2288
+    ],
+    "spritesheetSha256": "50d1c55d79c86ba3e330f2bc254f7dd8819f5fa57295ca420eb16c06ab515ce2",
+    "adapter": "Only the unused desktop neutral-reference cell is cleared. All 73 animation/look drawings are pixel-identical to canon.",
+    "legacyAtlas": [
+      1536,
+      1872
+    ],
+    "shareUrl": "https://chatgpt.com/s/sharepet_6ae27e3953388191a14be7fb59c0f883"
+  },
+  "frames": {
+    "actions": 57,
+    "looks": 16
+  },
+  "privacy": "Only pet artwork and portable package metadata are included. No source photograph, private project history, machine paths or account credentials."
+}

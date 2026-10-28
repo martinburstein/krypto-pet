@@ -1,0 +1,229 @@
+{
+  "colors": [
+    {
+      "name": "requested black bow tie",
+      "hex": "#000000",
+      "rgb": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "pupil",
+      "hex": "#181818",
+      "rgb": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "name": "deep fur contour",
+      "hex": "#59452d",
+      "rgb": [
+        89,
+        69,
+        45
+      ]
+    },
+    {
+      "name": "dark stripe",
+      "hex": "#8f663a",
+      "rgb": [
+        143,
+        102,
+        58
+      ]
+    },
+    {
+      "name": "caramel stripe",
+      "hex": "#af804c",
+      "rgb": [
+        175,
+        128,
+        76
+      ]
+    },
+    {
+      "name": "ginger shadow",
+      "hex": "#b98a56",
+      "rgb": [
+        185,
+        138,
+        86
+      ]
+    },
+    {
+      "name": "ginger mid",
+      "hex": "#c59a65",
+      "rgb": [
+        197,
+        154,
+        101
+      ]
+    },
+    {
+      "name": "ginger base",
+      "hex": "#d0a36c",
+      "rgb": [
+        208,
+        163,
+        108
+      ]
+    },
+    {
+      "name": "ginger light",
+      "hex": "#e0b77f",
+      "rgb": [
+        224,
+        183,
+        127
+      ]
+    },
+    {
+      "name": "ginger highlight",
+      "hex": "#e5bd82",
+      "rgb": [
+        229,
+        189,
+        130
+      ]
+    },
+    {
+      "name": "pale ginger",
+      "hex": "#f1cd9b",
+      "rgb": [
+        241,
+        205,
+        155
+      ]
+    },
+    {
+      "name": "white shadow",
+      "hex": "#bdb29c",
+      "rgb": [
+        189,
+        178,
+        156
+      ]
+    },
+    {
+      "name": "white mid shadow",
+      "hex": "#d0c8b5",
+      "rgb": [
+        208,
+        200,
+        181
+      ]
+    },
+    {
+      "name": "white mid",
+      "hex": "#dcd5c3",
+      "rgb": [
+        220,
+        213,
+        195
+      ]
+    },
+    {
+      "name": "white base",
+      "hex": "#e8e5d6",
+      "rgb": [
+        232,
+        229,
+        214
+      ]
+    },
+    {
+      "name": "white highlight",
+      "hex": "#f1eedf",
+      "rgb": [
+        241,
+        238,
+        223
+      ]
+    },
+    {
+      "name": "catchlight",
+      "hex": "#f8f6e9",
+      "rgb": [
+        248,
+        246,
+        233
+      ]
+    },
+    {
+      "name": "ear shadow",
+      "hex": "#c28980",
+      "rgb": [
+        194,
+        137,
+        128
+      ]
+    },
+    {
+      "name": "ear base",
+      "hex": "#d9998f",
+      "rgb": [
+        217,
+        153,
+        143
+      ]
+    },
+    {
+      "name": "ear light",
+      "hex": "#e5baaa",
+      "rgb": [
+        229,
+        186,
+        170
+      ]
+    },
+    {
+      "name": "nose",
+      "hex": "#d38c86",
+      "rgb": [
+        211,
+        140,
+        134
+      ]
+    },
+    {
+      "name": "nose shadow",
+      "hex": "#a75e58",
+      "rgb": [
+        167,
+        94,
+        88
+      ]
+    },
+    {
+      "name": "iris shadow",
+      "hex": "#7a6842",
+      "rgb": [
+        122,
+        104,
+        66
+      ]
+    },
+    {
+      "name": "iris base",
+      "hex": "#91815d",
+      "rgb": [
+        145,
+        129,
+        93
+      ]
+    },
+    {
+      "name": "iris light",
+      "hex": "#ba9f72",
+      "rgb": [
+        186,
+        159,
+        114
+      ]
+    }
+  ]
+}

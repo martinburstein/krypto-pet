@@ -1,0 +1,990 @@
+{
+  "artworkVersion": "1.0.0",
+  "standardFrames": 57,
+  "lookFrames": 16,
+  "logicalCell": [
+    96,
+    104
+  ],
+  "nativeCell": [
+    192,
+    208
+  ],
+  "actions": {
+    "idle": {
+      "label": "At home",
+      "description": "A quiet breath, a small tail curl, and a slow blink.",
+      "row": 0,
+      "count": 6,
+      "durationsMs": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    "running-right": {
+      "label": "Trot right",
+      "description": "Four little paws take turns carrying him to the right.",
+      "row": 1,
+      "count": 8,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    "running-left": {
+      "label": "Gallop left",
+      "description": "A springier leftward run, with a tucked stride and a little stretch.",
+      "row": 2,
+      "count": 8,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    "waving": {
+      "label": "Hello, you",
+      "description": "One real forepaw lifts into a friendly greeting. Three stay planted.",
+      "row": 3,
+      "count": 4,
+      "durationsMs": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    "jumping": {
+      "label": "Little hop",
+      "description": "Crouch, lift, tuck, descend, and a soft four-paw landing.",
+      "row": 4,
+      "count": 5,
+      "durationsMs": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    "failed": {
+      "label": "A small disappointment",
+      "description": "His ears fold, his shoulders sink, and he slowly gathers himself.",
+      "row": 5,
+      "count": 8,
+      "durationsMs": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    "waiting": {
+      "label": "Your turn",
+      "description": "An eager play-bow and an expectant head tilt ask for your attention.",
+      "row": 6,
+      "count": 6,
+      "durationsMs": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    "running": {
+      "label": "Hard at work",
+      "description": "Focused little forepaw kneads while he works through a thought.",
+      "row": 7,
+      "count": 6,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    "review": {
+      "label": "Let me inspect that",
+      "description": "A low, deliberate scan with attentive ears and an evaluating gaze.",
+      "row": 8,
+      "count": 6,
+      "durationsMs": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    }
+  },
+  "looks": [
+    {
+      "index": 0,
+      "degrees": 0.0,
+      "label": "up",
+      "row": 9,
+      "column": 0
+    },
+    {
+      "index": 1,
+      "degrees": 22.5,
+      "label": "up-right",
+      "row": 9,
+      "column": 1
+    },
+    {
+      "index": 2,
+      "degrees": 45.0,
+      "label": "up-right",
+      "row": 9,
+      "column": 2
+    },
+    {
+      "index": 3,
+      "degrees": 67.5,
+      "label": "up-right",
+      "row": 9,
+      "column": 3
+    },
+    {
+      "index": 4,
+      "degrees": 90.0,
+      "label": "right",
+      "row": 9,
+      "column": 4
+    },
+    {
+      "index": 5,
+      "degrees": 112.5,
+      "label": "down-right",
+      "row": 9,
+      "column": 5
+    },
+    {
+      "index": 6,
+      "degrees": 135.0,
+      "label": "down-right",
+      "row": 9,
+      "column": 6
+    },
+    {
+      "index": 7,
+      "degrees": 157.5,
+      "label": "down-right",
+      "row": 9,
+      "column": 7
+    },
+    {
+      "index": 8,
+      "degrees": 180.0,
+      "label": "down",
+      "row": 10,
+      "column": 0
+    },
+    {
+      "index": 9,
+      "degrees": 202.5,
+      "label": "down-left",
+      "row": 10,
+      "column": 1
+    },
+    {
+      "index": 10,
+      "degrees": 225.0,
+      "label": "down-left",
+      "row": 10,
+      "column": 2
+    },
+    {
+      "index": 11,
+      "degrees": 247.5,
+      "label": "down-left",
+      "row": 10,
+      "column": 3
+    },
+    {
+      "index": 12,
+      "degrees": 270.0,
+      "label": "left",
+      "row": 10,
+      "column": 4
+    },
+    {
+      "index": 13,
+      "degrees": 292.5,
+      "label": "up-left",
+      "row": 10,
+      "column": 5
+    },
+    {
+      "index": 14,
+      "degrees": 315.0,
+      "label": "up-left",
+      "row": 10,
+      "column": 6
+    },
+    {
+      "index": 15,
+      "degrees": 337.5,
+      "label": "up-left",
+      "row": 10,
+      "column": 7
+    }
+  ],
+  "frames": [
+    {
+      "state": "idle",
+      "index": 0,
+      "row": 0,
+      "column": 0,
+      "png": "frames/idle/00.png",
+      "editable": "editable/idle/00.pxl.json",
+      "durationMs": 280,
+      "pngSha256": "548d56ee5c891d7ace3a5d3305219f19de245661a4ca9fc51c97d259354d9b8f"
+    },
+    {
+      "state": "idle",
+      "index": 1,
+      "row": 0,
+      "column": 1,
+      "png": "frames/idle/01.png",
+      "editable": "editable/idle/01.pxl.json",
+      "durationMs": 110,
+      "pngSha256": "69308ec5217c7732a606c0024456f1a0ff401a2ac65226540d2cfd2737cd1a3e"
+    },
+    {
+      "state": "idle",
+      "index": 2,
+      "row": 0,
+      "column": 2,
+      "png": "frames/idle/02.png",
+      "editable": "editable/idle/02.pxl.json",
+      "durationMs": 110,
+      "pngSha256": "6f1e4df998fefa65b13156014ed3eabf18bfa2c04ceb4e3255e6e7f973d098e6"
+    },
+    {
+      "state": "idle",
+      "index": 3,
+      "row": 0,
+      "column": 3,
+      "png": "frames/idle/03.png",
+      "editable": "editable/idle/03.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "028d96c0889b96325744b1c707278c44f4d033b4e0e7977eb182b3e27cb77724"
+    },
+    {
+      "state": "idle",
+      "index": 4,
+      "row": 0,
+      "column": 4,
+      "png": "frames/idle/04.png",
+      "editable": "editable/idle/04.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "2a0e5e980c098050fce3520019fa67fb1341c15371afa125aa91b8a0764ede7c"
+    },
+    {
+      "state": "idle",
+      "index": 5,
+      "row": 0,
+      "column": 5,
+      "png": "frames/idle/05.png",
+      "editable": "editable/idle/05.pxl.json",
+      "durationMs": 320,
+      "pngSha256": "9ff6408e9546e4f24b5cc055d0aef418d7b8195d9bafeabe71d72ec3aa2a84ec"
+    },
+    {
+      "state": "running-right",
+      "index": 0,
+      "row": 1,
+      "column": 0,
+      "png": "frames/running-right/00.png",
+      "editable": "editable/running-right/00.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "19e708abb7a45cb74eff744aa1bca2011b6199429cbb0ec1b9ffcce21757a0df"
+    },
+    {
+      "state": "running-right",
+      "index": 1,
+      "row": 1,
+      "column": 1,
+      "png": "frames/running-right/01.png",
+      "editable": "editable/running-right/01.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "e66d6f447b163a3410d2151528a02c62b36b402d1b9fbee60d473acb450f034b"
+    },
+    {
+      "state": "running-right",
+      "index": 2,
+      "row": 1,
+      "column": 2,
+      "png": "frames/running-right/02.png",
+      "editable": "editable/running-right/02.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "4e86c7c53c72abf7bab6bfa9abdeb1ef34f5457c4d430f7575fcc7609ec2e64b"
+    },
+    {
+      "state": "running-right",
+      "index": 3,
+      "row": 1,
+      "column": 3,
+      "png": "frames/running-right/03.png",
+      "editable": "editable/running-right/03.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "136360370144e9530b6c0a8e90b5d138d880ad074a32462b5588ab983053e422"
+    },
+    {
+      "state": "running-right",
+      "index": 4,
+      "row": 1,
+      "column": 4,
+      "png": "frames/running-right/04.png",
+      "editable": "editable/running-right/04.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "dcfe08265ddc4f9c0befbcfa2010f764a90b46394b0198f4030fd010a078ffd2"
+    },
+    {
+      "state": "running-right",
+      "index": 5,
+      "row": 1,
+      "column": 5,
+      "png": "frames/running-right/05.png",
+      "editable": "editable/running-right/05.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "90a614e6e98f6e943f9daa35b0a26544584551eaccd247b04dea309a86ff34ec"
+    },
+    {
+      "state": "running-right",
+      "index": 6,
+      "row": 1,
+      "column": 6,
+      "png": "frames/running-right/06.png",
+      "editable": "editable/running-right/06.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "34cb8bc45f8a4a25ccc159196246ad7209a213fbed23d8a251ab6664517cdcd0"
+    },
+    {
+      "state": "running-right",
+      "index": 7,
+      "row": 1,
+      "column": 7,
+      "png": "frames/running-right/07.png",
+      "editable": "editable/running-right/07.pxl.json",
+      "durationMs": 220,
+      "pngSha256": "9f42b65ab7bbba089a16419446d25cb392393f570c2d9d7648597de610a7f05e"
+    },
+    {
+      "state": "running-left",
+      "index": 0,
+      "row": 2,
+      "column": 0,
+      "png": "frames/running-left/00.png",
+      "editable": "editable/running-left/00.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "13b5ece1475ec352c036bc706ff25cc66704acbdf0835ce325d4672f5aa16d6f"
+    },
+    {
+      "state": "running-left",
+      "index": 1,
+      "row": 2,
+      "column": 1,
+      "png": "frames/running-left/01.png",
+      "editable": "editable/running-left/01.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "6e9205b724c10867426aa32bfd5bdc84ff446bc2cc687d98408f56051317fe26"
+    },
+    {
+      "state": "running-left",
+      "index": 2,
+      "row": 2,
+      "column": 2,
+      "png": "frames/running-left/02.png",
+      "editable": "editable/running-left/02.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "12a6f75e98026c22e6f34aa99f5db154f267abcb3ed88dfe9d68b4ae8f6e8ee8"
+    },
+    {
+      "state": "running-left",
+      "index": 3,
+      "row": 2,
+      "column": 3,
+      "png": "frames/running-left/03.png",
+      "editable": "editable/running-left/03.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "436f0c65207a93a641f011e2198d63f658f15d31e0749f75e3e8772c31ffbc44"
+    },
+    {
+      "state": "running-left",
+      "index": 4,
+      "row": 2,
+      "column": 4,
+      "png": "frames/running-left/04.png",
+      "editable": "editable/running-left/04.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "4ceb5b1fb32c650234a7eccbd08c9e31c3066c9d5c9b910fb0a00b66cfba586b"
+    },
+    {
+      "state": "running-left",
+      "index": 5,
+      "row": 2,
+      "column": 5,
+      "png": "frames/running-left/05.png",
+      "editable": "editable/running-left/05.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "22f4a625ca4c0cbc7be9dcefc297d54e8de78b907ac7b173254b526448e5da01"
+    },
+    {
+      "state": "running-left",
+      "index": 6,
+      "row": 2,
+      "column": 6,
+      "png": "frames/running-left/06.png",
+      "editable": "editable/running-left/06.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "7552c5a097f07d1484c55ad510a5dd7d0461b23c3cf98887bb796938a9458955"
+    },
+    {
+      "state": "running-left",
+      "index": 7,
+      "row": 2,
+      "column": 7,
+      "png": "frames/running-left/07.png",
+      "editable": "editable/running-left/07.pxl.json",
+      "durationMs": 220,
+      "pngSha256": "6a513ac29bdb8b07b27b529a0b6c8cdb74bbfc06d21cd90ad5c72a268eb73881"
+    },
+    {
+      "state": "waving",
+      "index": 0,
+      "row": 3,
+      "column": 0,
+      "png": "frames/waving/00.png",
+      "editable": "editable/waving/00.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "a9613687f3121ffc57f3cad7e91c26be6095446047d42b692a947210e71e221a"
+    },
+    {
+      "state": "waving",
+      "index": 1,
+      "row": 3,
+      "column": 1,
+      "png": "frames/waving/01.png",
+      "editable": "editable/waving/01.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "f829f0c3c78f8fa9ef6041dd11aa247dacd7c713d84c1c5f293d633440086c87"
+    },
+    {
+      "state": "waving",
+      "index": 2,
+      "row": 3,
+      "column": 2,
+      "png": "frames/waving/02.png",
+      "editable": "editable/waving/02.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "2687048fa335ce85acfcad0b7b59a151fbe6983c04da50e244ccc5ad1a1d654e"
+    },
+    {
+      "state": "waving",
+      "index": 3,
+      "row": 3,
+      "column": 3,
+      "png": "frames/waving/03.png",
+      "editable": "editable/waving/03.pxl.json",
+      "durationMs": 280,
+      "pngSha256": "3a73b085fa9f13e900fb1849479dd9b109e50959294738f93bf9ecbcc79221d9"
+    },
+    {
+      "state": "jumping",
+      "index": 0,
+      "row": 4,
+      "column": 0,
+      "png": "frames/jumping/00.png",
+      "editable": "editable/jumping/00.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "26b50e24c72b8efa4c8cc24fc1d1c403616651ae4a41baaa761a071d0b214e1a"
+    },
+    {
+      "state": "jumping",
+      "index": 1,
+      "row": 4,
+      "column": 1,
+      "png": "frames/jumping/01.png",
+      "editable": "editable/jumping/01.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "fd33a89b13ae1cc2fdc5805360e81d0020c0b5b2359d1bc9ea1bffe145edaa31"
+    },
+    {
+      "state": "jumping",
+      "index": 2,
+      "row": 4,
+      "column": 2,
+      "png": "frames/jumping/02.png",
+      "editable": "editable/jumping/02.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "0b4d87b336bbaef778e985e26b725eb38e70137b9b7dc134e895908e95727773"
+    },
+    {
+      "state": "jumping",
+      "index": 3,
+      "row": 4,
+      "column": 3,
+      "png": "frames/jumping/03.png",
+      "editable": "editable/jumping/03.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "1aacb5ad2af65ddfe3eaf464cd01021cfcc6d34f8bcd1ced5f745558e17ec761"
+    },
+    {
+      "state": "jumping",
+      "index": 4,
+      "row": 4,
+      "column": 4,
+      "png": "frames/jumping/04.png",
+      "editable": "editable/jumping/04.pxl.json",
+      "durationMs": 280,
+      "pngSha256": "60c513856073621abf13b957cc54c6d30e8458f87fdda6da862de3a5cb11bfbb"
+    },
+    {
+      "state": "failed",
+      "index": 0,
+      "row": 5,
+      "column": 0,
+      "png": "frames/failed/00.png",
+      "editable": "editable/failed/00.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "7bed98b9f938485b3370e16b2b3b8b948b5d13e87ba6b5541d89eddfa0c2c3a5"
+    },
+    {
+      "state": "failed",
+      "index": 1,
+      "row": 5,
+      "column": 1,
+      "png": "frames/failed/01.png",
+      "editable": "editable/failed/01.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "f435dc6d6aa4a0eac8f4cf8116333ac9296b7d1d1c9f06a8c2d850675c1562a0"
+    },
+    {
+      "state": "failed",
+      "index": 2,
+      "row": 5,
+      "column": 2,
+      "png": "frames/failed/02.png",
+      "editable": "editable/failed/02.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "492bb3003acefd7c78f3712f242b08a917ebb229c233a072edbd639d36f529d0"
+    },
+    {
+      "state": "failed",
+      "index": 3,
+      "row": 5,
+      "column": 3,
+      "png": "frames/failed/03.png",
+      "editable": "editable/failed/03.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "cd821167964bf5b298b47a1ca60cc840147667a62399c0bf30a6ad7743deb8bf"
+    },
+    {
+      "state": "failed",
+      "index": 4,
+      "row": 5,
+      "column": 4,
+      "png": "frames/failed/04.png",
+      "editable": "editable/failed/04.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "34525b1d25a69a2f7b6f25d957e00cb00733cbbd5543bda171abe03d9b1cd44d"
+    },
+    {
+      "state": "failed",
+      "index": 5,
+      "row": 5,
+      "column": 5,
+      "png": "frames/failed/05.png",
+      "editable": "editable/failed/05.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "1b550ab5f4d4af28979080ab9a772c75058a5fd303d6983b8b07219866fb75af"
+    },
+    {
+      "state": "failed",
+      "index": 6,
+      "row": 5,
+      "column": 6,
+      "png": "frames/failed/06.png",
+      "editable": "editable/failed/06.pxl.json",
+      "durationMs": 140,
+      "pngSha256": "48a696e828dfcde6d992909d2ac50d09a7f77d7670f3f2fcf87e8b35132b06c4"
+    },
+    {
+      "state": "failed",
+      "index": 7,
+      "row": 5,
+      "column": 7,
+      "png": "frames/failed/07.png",
+      "editable": "editable/failed/07.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "76db750569f897070cc0b85d211f7fb988f4941979bb86407fbbbb8b7300ed59"
+    },
+    {
+      "state": "waiting",
+      "index": 0,
+      "row": 6,
+      "column": 0,
+      "png": "frames/waiting/00.png",
+      "editable": "editable/waiting/00.pxl.json",
+      "durationMs": 150,
+      "pngSha256": "9998c63ea843c6203f9c8ea044220923a1208fafb7b48e7fd18851940b93bcd7"
+    },
+    {
+      "state": "waiting",
+      "index": 1,
+      "row": 6,
+      "column": 1,
+      "png": "frames/waiting/01.png",
+      "editable": "editable/waiting/01.pxl.json",
+      "durationMs": 150,
+      "pngSha256": "b71c2232c2686c671e17383af820f5bc93f971cd3c9fece2084bcbd55be9736d"
+    },
+    {
+      "state": "waiting",
+      "index": 2,
+      "row": 6,
+      "column": 2,
+      "png": "frames/waiting/02.png",
+      "editable": "editable/waiting/02.pxl.json",
+      "durationMs": 150,
+      "pngSha256": "5c45341a5ea75596eb12690637813218ec4d9d39c7934ad4871d602b85ed13c8"
+    },
+    {
+      "state": "waiting",
+      "index": 3,
+      "row": 6,
+      "column": 3,
+      "png": "frames/waiting/03.png",
+      "editable": "editable/waiting/03.pxl.json",
+      "durationMs": 150,
+      "pngSha256": "8a96737b3de9ac675493ef076ef12c08f4686a3c375c4f50fe821b3093b3dbba"
+    },
+    {
+      "state": "waiting",
+      "index": 4,
+      "row": 6,
+      "column": 4,
+      "png": "frames/waiting/04.png",
+      "editable": "editable/waiting/04.pxl.json",
+      "durationMs": 150,
+      "pngSha256": "c3d7032fd9ba81c4a9a993f6a1e489a6f8615f0e3eea3433b72de8eb0b7b6875"
+    },
+    {
+      "state": "waiting",
+      "index": 5,
+      "row": 6,
+      "column": 5,
+      "png": "frames/waiting/05.png",
+      "editable": "editable/waiting/05.pxl.json",
+      "durationMs": 260,
+      "pngSha256": "b5cefcdd625345bed456ab49eeb2c24c48ce86ab9b82afb5e187713dd4eab037"
+    },
+    {
+      "state": "running",
+      "index": 0,
+      "row": 7,
+      "column": 0,
+      "png": "frames/running/00.png",
+      "editable": "editable/running/00.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "f1387aef457708ea2add681830b545c97e75426a0b1b4601c21cbbfc709bbf8c"
+    },
+    {
+      "state": "running",
+      "index": 1,
+      "row": 7,
+      "column": 1,
+      "png": "frames/running/01.png",
+      "editable": "editable/running/01.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "f8ad48dd1f5b1c7fbb9ec7f5d8dc6ee6f10688c37da2e16acd8dbb3d227caba5"
+    },
+    {
+      "state": "running",
+      "index": 2,
+      "row": 7,
+      "column": 2,
+      "png": "frames/running/02.png",
+      "editable": "editable/running/02.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "e12d53ae996de41e55ba042d6ac640e5741253744a1bb474a5b9b67a7b361bb8"
+    },
+    {
+      "state": "running",
+      "index": 3,
+      "row": 7,
+      "column": 3,
+      "png": "frames/running/03.png",
+      "editable": "editable/running/03.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "689809b4c6922fbb0dac7a62ed0f025207b24d91e0df983135fa563d638f31a5"
+    },
+    {
+      "state": "running",
+      "index": 4,
+      "row": 7,
+      "column": 4,
+      "png": "frames/running/04.png",
+      "editable": "editable/running/04.pxl.json",
+      "durationMs": 120,
+      "pngSha256": "b8610ca7e356fa599b9eb0154fbcbf54ca1ebf3c89dbc2206781933c44a6a83a"
+    },
+    {
+      "state": "running",
+      "index": 5,
+      "row": 7,
+      "column": 5,
+      "png": "frames/running/05.png",
+      "editable": "editable/running/05.pxl.json",
+      "durationMs": 220,
+      "pngSha256": "9600d61cc57c34d1323f72268a5c430e39583c11493e34e10da3d9e988f04a35"
+    },
+    {
+      "state": "review",
+      "index": 0,
+      "row": 8,
+      "column": 0,
+      "png": "frames/review/00.png",
+      "editable": "editable/review/00.pxl.json",
+      "durationMs": 150,
+      "pngSha256": "4f02d5dce756e28d4e18e742533ef331e1d8601ea2b09949c24987ffc4748f15"
+    },
+    {
+      "state": "review",
+      "index": 1,
+      "row": 8,
+      "column": 1,
+      "png": "frames/review/01.png",
+      "editable": "editable/review/01.pxl.json",
+      "durationMs": 150,
+      "pngSha256": "1e9a4b6898e3740c0f3933a2e1a4e8d97233c8ff81112a9ffa4468363ac7e290"
+    },
+    {
+      "state": "review",
+      "index": 2,
+      "row": 8,
+      "column": 2,
+      "png": "frames/review/02.png",
+      "editable": "editable/review/02.pxl.json",
+      "durationMs": 150,
+      "pngSha256": "2f8552e63a062c5cad6fbb62ae0d8941f7f79bbda4c7cb1890c642369b7746ad"
+    },
+    {
+      "state": "review",
+      "index": 3,
+      "row": 8,
+      "column": 3,
+      "png": "frames/review/03.png",
+      "editable": "editable/review/03.pxl.json",
+      "durationMs": 150,
+      "pngSha256": "f701303d3abd012753ace6e0fa9079ff47b9be79e428ed3fcc0b68f6c0663e08"
+    },
+    {
+      "state": "review",
+      "index": 4,
+      "row": 8,
+      "column": 4,
+      "png": "frames/review/04.png",
+      "editable": "editable/review/04.pxl.json",
+      "durationMs": 150,
+      "pngSha256": "b281d1690e1c72b8d60b7011bb4a60a9a82da38523983549cb94d7139537ec77"
+    },
+    {
+      "state": "review",
+      "index": 5,
+      "row": 8,
+      "column": 5,
+      "png": "frames/review/05.png",
+      "editable": "editable/review/05.pxl.json",
+      "durationMs": 280,
+      "pngSha256": "5d159deec2c2c795f2adb2e5b3504566f18a194659a3edbae704062f72b6d66e"
+    },
+    {
+      "state": "looks",
+      "index": 0,
+      "row": 9,
+      "column": 0,
+      "png": "frames/looks/00.png",
+      "editable": "editable/looks/00.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "762b87caed089ac7e1c79cee9e05c6836437442ce6c5e62ca7059e3def186fed"
+    },
+    {
+      "state": "looks",
+      "index": 1,
+      "row": 9,
+      "column": 1,
+      "png": "frames/looks/01.png",
+      "editable": "editable/looks/01.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "d23f56b1ba86a56561d65c853d1445fb7a896195b600c9534acac2ff56379772"
+    },
+    {
+      "state": "looks",
+      "index": 2,
+      "row": 9,
+      "column": 2,
+      "png": "frames/looks/02.png",
+      "editable": "editable/looks/02.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "2e3e8b0bf2a7a7691959affb9beaa73558920726defa1b6ffbbc6672d4a0ec7a"
+    },
+    {
+      "state": "looks",
+      "index": 3,
+      "row": 9,
+      "column": 3,
+      "png": "frames/looks/03.png",
+      "editable": "editable/looks/03.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "ba85e6f3750e0914de6e29a2b08b8fe972c91d4280a750c5619df15df5b0bd4a"
+    },
+    {
+      "state": "looks",
+      "index": 4,
+      "row": 9,
+      "column": 4,
+      "png": "frames/looks/04.png",
+      "editable": "editable/looks/04.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "42259112b3cc1fe6a4a0c93a75238651f62260199550502537779a06f3fcc677"
+    },
+    {
+      "state": "looks",
+      "index": 5,
+      "row": 9,
+      "column": 5,
+      "png": "frames/looks/05.png",
+      "editable": "editable/looks/05.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "aab2363b513654b55302e7b5624ca575b588b44d4c75d44e8c6744c0696d6618"
+    },
+    {
+      "state": "looks",
+      "index": 6,
+      "row": 9,
+      "column": 6,
+      "png": "frames/looks/06.png",
+      "editable": "editable/looks/06.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "230714a526dd3d7386979648fcbea4b6084491835201925c7f14f4c1c7c0bf21"
+    },
+    {
+      "state": "looks",
+      "index": 7,
+      "row": 9,
+      "column": 7,
+      "png": "frames/looks/07.png",
+      "editable": "editable/looks/07.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "fd21f36848037af51b70b4ce3d89e2c51034eed232e81b9966b4a6d9787581b6"
+    },
+    {
+      "state": "looks",
+      "index": 8,
+      "row": 10,
+      "column": 0,
+      "png": "frames/looks/08.png",
+      "editable": "editable/looks/08.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "d290cee44175189b36a8d648ab94fc2cd88d5522fa00206da905fedfd8515ac3"
+    },
+    {
+      "state": "looks",
+      "index": 9,
+      "row": 10,
+      "column": 1,
+      "png": "frames/looks/09.png",
+      "editable": "editable/looks/09.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "af0093702b1d3d0b0c5f3b54a4e2628322f8484896ea15b8b720e543f75d35d6"
+    },
+    {
+      "state": "looks",
+      "index": 10,
+      "row": 10,
+      "column": 2,
+      "png": "frames/looks/10.png",
+      "editable": "editable/looks/10.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "0e073afc6ba39c5132587cf31376d3a1f4d14d4ee2fd817aaaf6bb71584dab84"
+    },
+    {
+      "state": "looks",
+      "index": 11,
+      "row": 10,
+      "column": 3,
+      "png": "frames/looks/11.png",
+      "editable": "editable/looks/11.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "b8976ed32a067e55be97388b615729909dbbd53841cda8335d210cfb28355f5d"
+    },
+    {
+      "state": "looks",
+      "index": 12,
+      "row": 10,
+      "column": 4,
+      "png": "frames/looks/12.png",
+      "editable": "editable/looks/12.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "e175f64a7e0ffc6a58b4822d7b3d666ae66b4522a7cf0ba48fd6754dddae49dd"
+    },
+    {
+      "state": "looks",
+      "index": 13,
+      "row": 10,
+      "column": 5,
+      "png": "frames/looks/13.png",
+      "editable": "editable/looks/13.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "f7f9f032e2d09b46db22731f264c49131fc6108c906274f8713bf816433bf2a5"
+    },
+    {
+      "state": "looks",
+      "index": 14,
+      "row": 10,
+      "column": 6,
+      "png": "frames/looks/14.png",
+      "editable": "editable/looks/14.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "7d6faf76d6f01e72f382cd79d986ad4ebb906b9aea4ae3b6e1a894d641ffdedb"
+    },
+    {
+      "state": "looks",
+      "index": 15,
+      "row": 10,
+      "column": 7,
+      "png": "frames/looks/15.png",
+      "editable": "editable/looks/15.pxl.json",
+      "durationMs": 240,
+      "pngSha256": "f8eff1fbf391da21caf0f26c7240bd8f7162ff2a3756b855bc12b96c64832a60"
+    }
+  ]
+}
